@@ -9,7 +9,8 @@ struct SessionDetailView: View {
                 .font(.largeTitle)
                 .padding()
 
-            Text("Details about \(session.name).")
+            Text(session.description)
+                .multilineTextAlignment(.center)
                 .padding()
 
             Spacer()
@@ -21,6 +22,6 @@ struct SessionDetailView: View {
     SessionDetailView(session: Session(
         id: "99",
         name: "Test",
-        description: "Test"
+        description: "Test description"
     ))
 }
