@@ -1,0 +1,32 @@
+[
+    {
+        "id": "0",
+        "name": "10 Minute Relaxation",
+        "description": "Designed to fit seamlessly into even the busiest schedules."
+    },
+    {
+        "id": "1",
+        "name": "Morning Calm",
+        "description": "Start your day with a calming meditation to clear your mind."
+    },
+    {
+        "id": "2",
+        "name": "Lunch Break Relax",
+        "description": "A quick midday session to reset your stress levels."
+    },
+    {
+        "id": "3",
+        "name": "Evening Unwind",
+        "description": "Unwind in the evening to prepare for a restful sleep."
+    },
+    {
+        "id": "4",
+        "name": "Night Meditation",
+        "description": "End your day with deep meditation to improve sleep quality."
+    },
+    {
+        "id": "5",
+        "name": "Deep Focus",
+        "description": "Increase your concentration with focused meditation practices."
+    }
+]
