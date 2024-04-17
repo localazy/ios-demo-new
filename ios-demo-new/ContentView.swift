@@ -1,5 +1,6 @@
 
 import SwiftUI
+import Localazy_iOS
 
 struct ContentView: View {
     private var sessions: [Session] {
@@ -11,7 +12,7 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            ZStack(alignment: .top) {                
+            ZStack(alignment: .top) {
                 GeometryReader { geometry in
                     Image("Background")
                         .resizable()
@@ -26,18 +27,18 @@ struct ContentView: View {
                 // List
                 List {
                     if let todaysSession = todaysSession {
-                        Section(header: Text("Today's session")) {
+                        Section(header: Text(localazyKey: "Today's session")) {
                             NavigationLink(destination: SessionDetailView(session: todaysSession)) {
                                 Text(todaysSession.name)
                             }
                         }
                     } else {
-                        Section(header: Text("Today's session")) {
+                        Section(header: Text(localazyKey: "Today's session")) {
                             Text("No session today")
                         }
                     }
 
-                    Section(header: Text("All Sessions")) {
+                    Section(header: Text(localazyKey: "All Sessions")) {
                         ForEach(sessions.dropFirst()) { session in
                             NavigationLink(destination: SessionDetailView(session: session)) {
                                 Text(session.name)
@@ -49,7 +50,7 @@ struct ContentView: View {
 
             }
             .edgesIgnoringSafeArea(.top)
-            .navigationTitle("Meditation")
+            .navigationTitle("Meditation".localazyLocalized)
         }
     }
 }
@@ -68,7 +69,6 @@ func loadSessionData() -> [Session] {
         return []
     }
 }
-
 
 #Preview {
     ContentView()

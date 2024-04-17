@@ -1,0 +1,15 @@
+{
+  "originHash" : "14f8aa219642544f9f6d39193ec823c652c7525c2b81ed0a629b4648b5ccf751",
+  "pins" : [
+    {
+      "identity" : "localazy-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/localazy/localazy-swift",
+      "state" : {
+        "revision" : "796b83b128cf4209709df4e845610313902ec6b9",
+        "version" : "0.1.19"
+      }
+    }
+  ],
+  "version" : 3
+}
