@@ -25,7 +25,7 @@ struct ContentView: View {
                 }.frame(height: 200) // Fixed height for the image area
 
                 // List
-                List {
+                List {                    
                     if let todaysSession = todaysSession {
                         Section(header: Text(localazyKey: "Today's session")) {
                             NavigationLink(destination: SessionDetailView(session: todaysSession)) {
@@ -34,7 +34,7 @@ struct ContentView: View {
                         }
                     } else {
                         Section(header: Text(localazyKey: "Today's session")) {
-                            Text("No session today")
+                            Text(localazyKey: "No session today")
                         }
                     }
 
