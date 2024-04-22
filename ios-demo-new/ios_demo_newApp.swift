@@ -16,9 +16,10 @@ struct ios_demo_newApp: App {
                 // Optionally show a loading or splash screen while waiting
                 ProgressView("Loading...").task {
                     await Localazy.shared.forceReload()
-                    print(Localazy.shared.getCurrentLocale())
-                    print(Localazy.shared.getCurrentLocalazyLocale())
-                    print(Localazy.shared.getString(for:"All Sessions"))
+//                    print(Localazy.shared.getCurrentLocale())
+                    print(Localazy.shared.getLocales())
+//                    print(Localazy.shared.getCurrentLocalazyLocale())
+//                    print(Localazy.shared.getString(for:"All Sessions"))
                 }
             }
         }
