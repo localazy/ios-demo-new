@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7A70E39A2BCEEC0A001308CE /* SessionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70E3992BCEEC0A001308CE /* SessionDetailView.swift */; };
-		7A70E39C2BCEF1BE001308CE /* sessions.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A70E39B2BCEF1BE001308CE /* sessions.json */; };
+		7A70E39C2BCEF1BE001308CE /* en.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A70E39B2BCEF1BE001308CE /* en.json */; };
 		7A70E39E2BCEF23C001308CE /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A70E39D2BCEF23C001308CE /* Session.swift */; };
 		7A70E3A12BCF05E7001308CE /* Localazy in Frameworks */ = {isa = PBXBuildFile; productRef = 7A70E3A02BCF05E7001308CE /* Localazy */; };
 		7A70E3A32BCF06C8001308CE /* Localazy.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A70E3A22BCF06C8001308CE /* Localazy.plist */; };
@@ -42,7 +42,7 @@
 
 /* Begin PBXFileReference section */
 		7A70E3992BCEEC0A001308CE /* SessionDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionDetailView.swift; sourceTree = "<group>"; };
-		7A70E39B2BCEF1BE001308CE /* sessions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sessions.json; sourceTree = "<group>"; };
+		7A70E39B2BCEF1BE001308CE /* en.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = en.json; sourceTree = "<group>"; };
 		7A70E39D2BCEF23C001308CE /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		7A70E3A22BCF06C8001308CE /* Localazy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Localazy.plist; sourceTree = "<group>"; };
 		7A77DF022BCEAB4E007417D0 /* ios-demo-new.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-demo-new.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,13 +110,13 @@
 		7A77DF042BCEAB4E007417D0 /* ios-demo-new */ = {
 			isa = PBXGroup;
 			children = (
+				7ABF35642BD6800200C42C83 /* data */,
 				7A77DF052BCEAB4E007417D0 /* ios_demo_newApp.swift */,
 				7A77DF072BCEAB4E007417D0 /* ContentView.swift */,
 				7A70E3992BCEEC0A001308CE /* SessionDetailView.swift */,
 				7A77DF092BCEAB50007417D0 /* Assets.xcassets */,
 				7A77DF0B2BCEAB50007417D0 /* ios_demo_new.entitlements */,
 				7A77DF0C2BCEAB50007417D0 /* Preview Content */,
-				7A70E39B2BCEF1BE001308CE /* sessions.json */,
 				7A70E39D2BCEF23C001308CE /* Session.swift */,
 				7A70E3A22BCF06C8001308CE /* Localazy.plist */,
 				7A795CAC2BCFE9EF007C197D /* AppSettings.swift */,
@@ -147,6 +147,14 @@
 				7A77DF232BCEAB50007417D0 /* ios_demo_newUITestsLaunchTests.swift */,
 			);
 			path = "ios-demo-newUITests";
+			sourceTree = "<group>";
+		};
+		7ABF35642BD6800200C42C83 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				7A70E39B2BCEF1BE001308CE /* en.json */,
+			);
+			path = data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +269,7 @@
 			files = (
 				7ABF35632BD67E4500C42C83 /* Localizable.strings in Resources */,
 				7A77DF0E2BCEAB50007417D0 /* Preview Assets.xcassets in Resources */,
-				7A70E39C2BCEF1BE001308CE /* sessions.json in Resources */,
+				7A70E39C2BCEF1BE001308CE /* en.json in Resources */,
 				7A77DF0A2BCEAB50007417D0 /* Assets.xcassets in Resources */,
 				7A70E3A32BCF06C8001308CE /* Localazy.plist in Resources */,
 			);

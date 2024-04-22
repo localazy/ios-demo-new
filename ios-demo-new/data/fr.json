@@ -1,0 +1,33 @@
+{
+  "My Key": "My key",
+  "[0]": {
+    "description": "Conçu pour s'adapter parfaitement aux horaires les plus chargés.",
+    "id": "0",
+    "name": "10 minutes de détente"
+  },
+  "[1]": {
+    "description": "Commencez votre journée par une méditation apaisante pour vous vider l'esprit.",
+    "id": "1",
+    "name": "Calme matinal"
+  },
+  "[2]": {
+    "description": "Une séance rapide en milieu de journée pour rétablir votre niveau de stress.",
+    "id": "2",
+    "name": "Pause déjeuner Relax"
+  },
+  "[3]": {
+    "description": "Le soir, détendez-vous pour vous préparer à un sommeil réparateur.",
+    "id": "3",
+    "name": "Soirée Relaxation"
+  },
+  "[4]": {
+    "description": "Terminez votre journée par une méditation profonde pour améliorer la qualité du sommeil.",
+    "id": "4",
+    "name": "Méditation nocturne"
+  },
+  "[5]": {
+    "description": "Augmentez votre concentration grâce à des pratiques de méditation ciblées.",
+    "id": "5",
+    "name": "Concentration profonde"
+  }
+}
