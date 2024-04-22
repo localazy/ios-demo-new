@@ -45,12 +45,13 @@ struct ContentView: View {
                             }
                         }
                     }
+                    Text(localazyKey: "Loading...")
                 }
-                .padding(.top, 200) 
+                .padding(.top, 200)
 
             }
             .edgesIgnoringSafeArea(.top)
-            .navigationTitle("Meditation".localazyLocalized)
+            .navigationTitle(Text(localazyKey:"Meditation"))
         }
     }
 }
